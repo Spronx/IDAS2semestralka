@@ -59,7 +59,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Verdana" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;br&gt;&#xa;V&#xed;tejte v aplikaci pro spr&#xe1;vu kni&#x17e;n&#xed;ho syst&#xe9;mu.&lt;br&gt;&#xa;&lt;br&gt;&#xa;&lt;br&gt;&#xa;"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;br&gt;&amp;nbsp;&amp;nbsp;V&#xed;tejte v aplikaci pro spr&#xe1;vu kni&#x17e;n&#xed;ho syst&#xe9;mu.&lt;br&gt; &lt;br&gt; &lt;br&gt; "/>
           </Properties>
         </Component>
       </SubComponents>

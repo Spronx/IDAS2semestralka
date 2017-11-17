@@ -32,7 +32,7 @@ public class Aplikace extends javax.swing.JFrame {
         jPanelObsah.setLayout(new javax.swing.BoxLayout(jPanelObsah, javax.swing.BoxLayout.LINE_AXIS));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jLabel1.setText("<html>\n<br>\nVítejte v aplikaci pro správu knižního systému.<br>\n<br>\n<br>\n");
+        jLabel1.setText("<html> <br>&nbsp;&nbsp;Vítejte v aplikaci pro správu knižního systému.<br> <br> <br> ");
         jPanelObsah.add(jLabel1);
 
         getContentPane().add(jPanelObsah, java.awt.BorderLayout.CENTER);
