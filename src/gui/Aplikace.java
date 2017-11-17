@@ -12,6 +12,7 @@ public class Aplikace extends javax.swing.JFrame {
      */
     public Aplikace() {
         initComponents();
+        //yolo
     }
 
     /**
