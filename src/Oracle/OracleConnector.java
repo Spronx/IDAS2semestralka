@@ -37,7 +37,7 @@ public class OracleConnector {
         if (OracleConnector.conn == null) {
             throw new SQLException("Session is not established");
         }
-        return OracleConnector.conn;
+        return conn;
     }
 
     /**
