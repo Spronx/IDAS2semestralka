@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package gui;
 
 /**
@@ -27,39 +23,11 @@ public class Aplikace extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        postranniMenu1 = new gui.PostranniMenu();
-        hlavniObsah1 = new gui.HlavniObsah();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        javax.swing.GroupLayout postranniMenu1Layout = new javax.swing.GroupLayout(postranniMenu1);
-        postranniMenu1.setLayout(postranniMenu1Layout);
-        postranniMenu1Layout.setHorizontalGroup(
-            postranniMenu1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        postranniMenu1Layout.setVerticalGroup(
-            postranniMenu1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 340, Short.MAX_VALUE)
-        );
-
-        getContentPane().add(postranniMenu1, java.awt.BorderLayout.LINE_END);
-
-        javax.swing.GroupLayout hlavniObsah1Layout = new javax.swing.GroupLayout(hlavniObsah1);
-        hlavniObsah1.setLayout(hlavniObsah1Layout);
-        hlavniObsah1Layout.setHorizontalGroup(
-            hlavniObsah1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        hlavniObsah1Layout.setVerticalGroup(
-            hlavniObsah1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 340, Short.MAX_VALUE)
-        );
-
-        getContentPane().add(hlavniObsah1, java.awt.BorderLayout.CENTER);
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -108,10 +76,8 @@ public class Aplikace extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private gui.HlavniObsah hlavniObsah1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private gui.PostranniMenu postranniMenu1;
     // End of variables declaration//GEN-END:variables
 }
